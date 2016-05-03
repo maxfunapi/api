@@ -3,7 +3,7 @@
 消费记录实时插入，如果传入的用户不存在会创建新用户.
 
 ## URL
-   {BASE_URL}/qf/services/tp/transaction
+   {BASE_URL}/tp/services/transaction
 
 ## Method
    POST
