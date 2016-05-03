@@ -24,7 +24,7 @@
       	"purchase_amount": 14.1,
       	"coupon_detail_id": 123456,
       	"coupon_amount": 0.8,
-      	"wx_coupon_amount":.01
+      	"wx_coupon_amount":0.1,
       	"gender": 1,
       	"customer_nick_name": "ethan",
       	"customer_country": " 中国",
