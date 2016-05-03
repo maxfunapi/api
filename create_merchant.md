@@ -80,6 +80,25 @@
 <table>
 
 ## Response
+```
+{
+	"status": {
+		"code": "200",
+		"message": "success",
+		"errors": [],
+		"debug": {
+			"build": "1.0",
+			"serverName": "ethan-PC",
+			"duration": 20332
+		}
+	},
+	"result": {
+		  "login_name":"maxfun",
+		  "app_id":"9e9e4e8394904c16a6c14e39ba406724",
+		  "app_secret":"f2cd22d42c134252b874fbc01cf39a7f"
+	}
+}
+```
 <table data-tablesaw-sortable>
     <thead>
         <tr>
@@ -103,27 +122,7 @@
             <td>app_secret</th>
         </tr>
       </thead>   
-</table>
-```
-{
-	"status": {
-		"code": "200",
-		"message": "success",
-		"errors": [],
-		"debug": {
-			"build": "1.0",
-			"serverName": "ethan-PC",
-			"duration": 20332
-		}
-	},
-	"result": {
-		  "login_name":"maxfun",
-		  "app_id":"9e9e4e8394904c16a6c14e39ba406724",
-		  "app_secret":"f2cd22d42c134252b874fbc01cf39a7f"
-	}
-}
-```
- 
+</table> 
 
  
 
