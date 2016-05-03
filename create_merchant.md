@@ -26,8 +26,7 @@
 	"indentifier_type" : 1
  }
 ```
-
-## Request字段描述
+```
 <table data-tablesaw-sortable>
     <thead>
         <tr>
@@ -80,6 +79,7 @@
         </tr>
     </thead>
 <table>
+```
 
 ## Response
 ```
