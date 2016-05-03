@@ -110,19 +110,16 @@
             <td>login_name</th>
             <td>字符型</th>
             <td>登录名,登录满乐卡后台时使用</th>
-            <td>是</th>
         </tr>
 	<tr>
             <td>app_id</th>
             <td>字符型</th>
             <td>app_id</th>
-            <td>是</th>
         </tr>
 	<tr>
             <td>app_secret</th>
             <td>字符型</th>
             <td>app_secret</th>
-            <td>是</th>
         </tr>
 </table>
 
