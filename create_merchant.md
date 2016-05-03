@@ -99,6 +99,7 @@
 	}
 }
 ```
+```
 <table data-tablesaw-sortable>
     <thead>
         <tr>
@@ -122,4 +123,5 @@
             <td>app_secret</th>
         </tr>
 </table>
+```
 
