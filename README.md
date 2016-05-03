@@ -4,8 +4,10 @@
    
   * 测试环境： https://demo.maxfun.co/
   * 正式环境： 稍后提供
-  
-  * Header token格式： Authorization: bearer {TOKEN_VALUE}
+
+
+##  Header token格式
+  * Authorization: bearer {TOKEN_VALUE}
 
 
 ##接口说明
