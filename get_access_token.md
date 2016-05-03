@@ -3,7 +3,7 @@
 获取访问其他API的token.
 
 ## URL
-   {BASE_URL}/qf/services/tp/tokeN?app_id={app_id}&app_secret={app_secret}
+   {BASE_URL}/tp/services/token?app_id={app_id}&app_secret={app_secret}
 
 ## Method
    GET
