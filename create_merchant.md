@@ -27,29 +27,59 @@
  }
 ```
 
+## Request字段描述
 <table data-tablesaw-sortable>
     <thead>
         <tr>
-            <!-- Default column -->
-            <th data-tablesaw-sortable-col data-tablesaw-sortable-default-col>Rank</th>
-            <th data-tablesaw-sortable-col>Movie Title</th>
-            <th data-tablesaw-sortable-col data-sortable-numeric>Year</th>
-            <th data-tablesaw-sortable-col data-sortable-numeric><abbr title="Rotten Tomato Rating">Rating</abbr></th>
-            <!-- Unsortable column -->
-            <th>Reviews</th>
+            <th data-tablesaw-sortable-col data-tablesaw-sortable-default-col>字段名称</th>
+            <th data-tablesaw-sortable-col>类型</th>
+            <th data-tablesaw-sortable-col>描述</th>
+            <th data-tablesaw-sortable-col>是否必填</th>
+        </tr>
+	<tr>
+            <td>merchant_id</th>
+            <td>数字型</th>
+            <td>第三方商户ID</th>
+            <td>是</th>
+        </tr>
+	<tr>
+            <td>merchant_name</th>
+            <td>字符型</th>
+            <td>商户名称</th>
+            <td>是</th>
+        </tr>
+	<tr>
+            <td>merchant_address</th>
+            <td>字符型</th>
+            <td>商户地址</th>
+            <td>是</th>
+        </tr>
+	<tr>
+            <td>merchant_type</th>
+            <td>字符型</th>
+            <td>商户类型</th>
+            <td>否</th>
+        </tr>
+	<tr>
+            <td>business_district</th>
+            <td>字符型</th>
+            <td>商圈</th>
+            <td>否</th>
+        </tr>
+	<tr>
+            <td>create_time</th>
+            <td>字符型</th>
+            <td>商户开店时间</th>
+            <td>否</th>
+        </tr>
+	<tr>
+            <td>indentifier_type</th>
+            <td>数字型</th>
+            <td>用户类型：1表示微信；2表示支付宝；3表示电话号码；</th>
+            <td>是</th>
         </tr>
     </thead>
 <table>
-## Request字段描述
-字段名称	类型	描述
-status		请求返回的状态，所以得返回值都会有这个字段。如果有错误，code将是非200
-code	数字型	Code为200表示成功，其他为错误
-debug		调试信息
-result	对象	返回的实际内容
-login_name		登录名,登录后台时使用
-app_id		appId,获取token的凭证
-app_secret		appSecret,获取token的凭证
-
 
 ## Response
 ```
