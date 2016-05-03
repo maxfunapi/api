@@ -26,7 +26,6 @@
 	"indentifier_type" : 1
  }
 ```
-```
 <table data-tablesaw-sortable>
     <thead>
         <tr>
@@ -79,7 +78,6 @@
         </tr>
     </thead>
 <table>
-```
 
 ## Response
 ```
