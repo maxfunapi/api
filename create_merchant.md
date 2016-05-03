@@ -101,27 +101,12 @@
 	}
 }
 ```
-<table data-tablesaw-sortable>
+<table>
     <thead>
         <tr>
             <th data-tablesaw-sortable-col data-tablesaw-sortable-default-col>字段名称</th>
             <th data-tablesaw-sortable-col>类型</th>
             <th data-tablesaw-sortable-col>描述</th>
-        </tr>
-	<tr>
-            <td>login_name</th>
-            <td>字符型</th>
-            <td>登录名,登录满乐卡后台时使用</th>
-        </tr>
-	<tr>
-            <td>app_id</th>
-            <td>字符型</th>
-            <td>app_id</th>
-        </tr>
-	<tr>
-            <td>app_secret</th>
-            <td>字符型</th>
-            <td>app_secret</th>
         </tr>
       </thead>   
 </table>
