@@ -3,7 +3,7 @@
 本接口用于创建新的店铺.
 
 ## URL
-   {BASE_URL}/qf/services/merchant
+   {BASE_URL}/tp/services/merchant
 
 ## Method
    POST
