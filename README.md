@@ -11,6 +11,6 @@
 
 
 ##接口说明
-  * [创建商户](https://github.com/maxfunapi/api/blob/branch_new_design/create_merchant.md)
-  * [获取token](https://github.com/maxfunapi/api/blob/branch_new_design/get_access_token.md)
-  * [消费记录实时同步](https://github.com/maxfunapi/api/blob/branch_new_design/syn_transaction.md)
+  * [创建商户](https://github.com/maxfunapi/api/create_merchant.md)
+  * [获取token](https://github.com/maxfunapi/api/get_access_token.md)
+  * [消费记录实时同步](https://github.com/maxfunapi/api/syn_transaction.md)
