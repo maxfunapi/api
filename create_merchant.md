@@ -23,7 +23,7 @@
  	"business_district": "科技园",
  	"merchant_city": "深圳",
  	"create_time": "2016-03-24 17:21:40",
-	"indentifier_type" : 1
+	"identifier_type" : 1
  }
 ```
 <table data-tablesaw-sortable>
@@ -71,7 +71,7 @@
             <td>否</th>
         </tr>
 	<tr>
-            <td>indentifier_type</th>
+            <td>identifier_type</th>
             <td>数字型</th>
             <td>用户类型：1表示微信；2表示支付宝；3表示电话号码；</th>
             <td>是</th>
