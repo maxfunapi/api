@@ -15,3 +15,4 @@
   * [创建商户](https://github.com/maxfunapi/api/blob/master/create_merchant.md)
   * [获取token](https://github.com/maxfunapi/api/blob/master/get_access_token.md)
   * [同步消费记录](https://github.com/maxfunapi/api/blob/master/syn_transaction.md)
+  * [历史数据导入](https://github.com/maxfunapi/api/blob/master/import_history.md)
