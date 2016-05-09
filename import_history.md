@@ -1,6 +1,6 @@
-# 历史数据导入
+# 历史消费数据导入
 
-本接口用于历史数据导入
+本接口用于历史消费数据导入
 
 ## URL
    {BASE_URL}/tp/services/import_transaction_history
