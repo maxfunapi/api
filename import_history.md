@@ -32,7 +32,7 @@
 		{...}
 	]
  }
- * customer_list 数组长度1000
+ * transaction_list 数组长度最大为1000，超过1000会报错。
 ```
 <table data-tablesaw-sortable>
     <thead>
@@ -55,6 +55,12 @@
 		<td>是</th>
 	</tr>
 	<tr>
+		<td>purchase_time</th>
+		<td>数字型</th>
+		<td>用户消费日期 格式(yyyy-MM-dd HH:mm:ss)</th>
+		<td>是</th>
+	</tr>
+	<tr>
 		<td>purchase_amount</th>
 		<td>数字型</th>
 		<td>用户消费金额</th>
@@ -63,7 +69,7 @@
 	<tr>
 		<td>gender</th>
 		<td>字符型</th>
-		<td>性别</th>
+		<td>性别 (male或者female)</th>
 		<td>否</th>
 	</tr>
 	<tr>
