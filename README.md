@@ -8,7 +8,7 @@
 
 
 ###  Header token格式
-  * Authorization: bearer {TOKEN_VALUE}
+  * Authorization: bearer access_token
 
 
 ### 接口说明
