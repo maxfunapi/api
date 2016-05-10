@@ -11,28 +11,29 @@
 ## Headers
 ```
    Content-type=application/json
+   Authorization: bearer {access_token}
 ```
 
 ## Request
 ```
   {
  	"transaction_list":[
-		{"customer_identifier":"13800138000",
-		"customer_created_date":"20165-05-05 13:21:21",
-		"purchase_time":"20165-05-05 13:24:21",
-		"purchase_amount":18.5,
-		"gender":"male",
-		"customer_nick_name":"nick",
-		"customer_country":"中国",
-		"customer_province":"广东",
-		"customer_city":"深圳",
-		"identifier_type":"3",
-		"transaction_id":1001
+		{
+			"customer_identifier":"13800138000",
+			"customer_created_time":"20165-05-05 13:21:21",
+			"purchase_time":"2016-05-05 13:24:21",
+			"purchase_amount":18.5,
+			"gender":"male",
+			"customer_nick_name":"nick",
+			"customer_country":"中国",
+			"customer_province":"广东",
+			"customer_city":"深圳",
+			"transaction_id":1001
 		},
 		{...}
 	]
  }
- * transaction_list 数组长度最大为1000，超过1000会报错。
+ 注意：transaction_list 数组长度最大为1000
 ```
 <table data-tablesaw-sortable>
     <thead>
@@ -49,15 +50,15 @@
 		<td>是</th>
 	</tr>
 	<tr>
-		<td>customer_created_date</th>
+		<td>customer_created_time</th>
 		<td>字符型</th>
-		<td>用户创建日期 格式(yyyy-MM-dd HH:mm:ss)</th>
+		<td>用户创建时间 格式(yyyy-MM-dd HH:mm:ss)</th>
 		<td>是</th>
 	</tr>
 	<tr>
 		<td>purchase_time</th>
 		<td>数字型</th>
-		<td>用户消费日期 格式(yyyy-MM-dd HH:mm:ss)</th>
+		<td>用户消费时间 格式(yyyy-MM-dd HH:mm:ss)</th>
 		<td>是</th>
 	</tr>
 	<tr>
@@ -69,7 +70,7 @@
 	<tr>
 		<td>gender</th>
 		<td>字符型</th>
-		<td>性别 (male或者female)</th>
+		<td>性别 male表示男，female表示女</th>
 		<td>否</th>
 	</tr>
 	<tr>
@@ -95,12 +96,6 @@
 		<td>字符型</th>
 		<td>城市</th>
 		<td>否</th>
-	</tr>
-	<tr>
-		<td>identifier_type</th>
-		<td>数字型</th>
-		<td>用户类型：1表示微信；2表示支付宝；3表示电话号码；</th>
-		<td>是</th>
 	</tr>
 	<tr>
 		<td>transaction_id</th>

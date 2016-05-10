@@ -10,7 +10,7 @@
 
 ## Headers
 ```
-   Content-type=application/json
+   
 ```
 
 ## Request
@@ -42,16 +42,10 @@
 {
 	"status": {
 		"code": "200",
-		"message": "success",
-		"errors": [],
-		"debug": {
-			"build": "1.0",
-			"serverName": "ethan-PC",
-			"duration": 20332
-		}
+		"message": "success"
 	},
 	"result": {
-		"access_token":"ebce3c39-1684-4655-8481-35264b9bb14a ",
+		"access_token":"token",
 		"expires_time": 604800 
 	}
 }

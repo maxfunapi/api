@@ -25,7 +25,7 @@
       	"coupon_detail_id": 123456,
       	"coupon_amount": 0.8,
       	"wx_coupon_amount":0.1,
-      	"gender": 1,
+      	"gender": "male",
       	"customer_nick_name": "ethan",
       	"customer_country": " 中国",
       	"customer_province": "广东",
@@ -55,13 +55,13 @@
 	<tr>
             <td>identifier_type</th>
             <td>字符型</th>
-            <td>1表示微信；2表示支付宝；3表示电话号码；4表示其他</th>
+            <td>1表示微信；2表示支付宝；3表示电话号码；</th>
             <td>是</th>
         </tr>
 	<tr>
             <td>purchase_time</th>
             <td>字符型</th>
-            <td>购买类型，格式为yyyy-mm-dd HH:mm:ss</th>
+            <td>购买时间，格式为yyyy-mm-dd HH:mm:ss</th>
             <td>否</th>
         </tr>
 	<tr>
@@ -84,8 +84,8 @@
         </tr>
 	<tr>
             <td>gender</th>
-            <td>数字型</th>
-            <td>1表示男，2表示女</th>
+            <td>字符型</th>
+            <td>性别 male表示男，female表示女</th>
             <td>否</th>
         </tr>
 	<tr>
@@ -121,13 +121,7 @@
 {
 	"status": {
 		"code": "200",
-		"message": "success",
-		"errors": [],
-		"debug": {
-			"build": "1.0",
-			"serverName": "ethan-PC",
-			"duration": 20332
-		}
+		"message": "success"
 	},
 	"result": {
 	        "transaction_id":123456

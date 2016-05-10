@@ -16,14 +16,15 @@
 ## Request
 ```
   {
- 	"merchant_id": 8888889,
- 	"merchant_name": "满乐测试",
+ 	"merchant_id": 10086,
+ 	"merchant_name": "alipp测试",
  	"merchant_address": "深圳南山科技园",
  	"merchant_type": "餐饮",
- 	"business_district": "科技园",
  	"merchant_city": "深圳",
  	"create_time": "2016-03-24 17:21:40",
-	"identifier_type" : 1
+	"identifier_type" : 3,
+	"password":"pdwdzzz",
+	"login_name":"loginname"
  }
 ```
 <table data-tablesaw-sortable>
@@ -57,25 +58,38 @@
             <td>字符型</th>
             <td>商户类型</th>
             <td>否</th>
-        </tr>
+    </tr>
 	<tr>
-            <td>business_district</th>
+            <td>merchant_city</th>
             <td>字符型</th>
-            <td>商圈</th>
+            <td>商户所在城市</th>
             <td>否</th>
-        </tr>
+    </tr>
+	<tr>
 	<tr>
             <td>create_time</th>
             <td>字符型</th>
-            <td>商户开店时间</th>
+            <td>商户开店时间 格式为yyyy-MM-dd HH:mm:ss</th>
             <td>否</th>
         </tr>
 	<tr>
-            <td>identifier_type</th>
-            <td>数字型</th>
-            <td>用户类型：1表示微信；2表示支付宝；3表示电话号码；</th>
-            <td>是</th>
-        </tr>
+		<td>identifier_type</th>
+		<td>数字型</th>
+		<td>用户类型：1表示微信；2表示支付宝；3表示电话号码；</th>
+		<td>是</th>
+	</tr>
+	<tr>
+		<td>password</th>
+		<td>字符型</th>
+		<td>商户登录密码</th>
+		<td>是</th>
+	</tr>
+	<tr>
+		<td>login_name</th>
+		<td>字符型</th>
+		<td>用户登录名称</th>
+		<td>是</th>
+	</tr>
     </thead>
 <table>
 
@@ -85,18 +99,12 @@
 {
 	"status": {
 		"code": "200",
-		"message": "success",
-		"errors": [],
-		"debug": {
-			"build": "1.0",
-			"serverName": "ethan-PC",
-			"duration": 20332
-		}
+		"message": "success"
 	},
 	"result": {
-		  "login_name":"maxfun",
-		  "app_id":"9e9e4e8394904c16a6c14e39ba406724",
-		  "app_secret":"f2cd22d42c134252b874fbc01cf39a7f"
+		"login_name":"maxfun",
+		"app_id":"app_id",
+		"app_secret":"app_secret"
 	}
 }
 ```
