@@ -17,9 +17,8 @@
 ## Request
 ```
   {
-      	"transaction_id": "12345wefr23r",
+      	"transaction_id": "11111",
       	"customer_identifier": "13592619028",
-      	"identifier_type": 3,
       	"purchase_time": "2016-03-24 10:10:00",
       	"purchase_amount": 14.1,
       	"coupon_detail_id": 123456,
@@ -42,7 +41,7 @@
         </tr>
 	<tr>
             <td>transaction_id</th>
-            <td>数字型</th>
+            <td>字符型</th>
             <td>第三方消费记录的唯一标识</th>
             <td>是</th>
         </tr>

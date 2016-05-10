@@ -28,7 +28,7 @@
 			"customer_country":"中国",
 			"customer_province":"广东",
 			"customer_city":"深圳",
-			"transaction_id":1001
+			"transaction_id":"1001"
 		},
 		{...}
 	]
@@ -99,7 +99,7 @@
 	</tr>
 	<tr>
 		<td>transaction_id</th>
-		<td>数字型</th>
+		<td>字符型</th>
 		<td>交易流水ID(不能重复)</th>
 		<td>是</th>
 	</tr>

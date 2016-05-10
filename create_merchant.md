@@ -16,7 +16,7 @@
 ## Request
 ```
   {
- 	"merchant_id": 10086,
+ 	"merchant_id": "10086",
  	"merchant_name": "alipp测试",
  	"merchant_address": "深圳南山科技园",
  	"merchant_type": "餐饮",
@@ -37,7 +37,7 @@
         </tr>
 	<tr>
             <td>merchant_id</th>
-            <td>数字型</th>
+            <td>字符型</th>
             <td>第三方商户ID</th>
             <td>是</th>
         </tr>
