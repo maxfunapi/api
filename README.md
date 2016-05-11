@@ -16,3 +16,4 @@
   * [获取访问token](https://github.com/maxfunapi/api/blob/master/get_access_token.md)
   * [同步消费记录](https://github.com/maxfunapi/api/blob/master/syn_transaction.md)
   * [历史消费数据导入](https://github.com/maxfunapi/api/blob/master/import_history.md)
+  * [页面嵌入](https://github.com/maxfunapi/api/blob/master/page_embed.md)
