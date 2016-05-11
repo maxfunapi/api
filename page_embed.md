@@ -49,6 +49,6 @@
 
 ### demo展示
 
-####移动端数据魔方
+移动端数据魔方
 <img src="http://7xnvcz.com1.z0.glb.clouddn.com/demo/demo.jpg" width="50%" height="50%">
-![image]()
+
