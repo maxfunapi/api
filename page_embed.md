@@ -7,13 +7,13 @@
 ###移动平台
 ```
 测试： http://qa.maxfun.co/mobile?page=1&token=7f6e9443-708b-42cf-a6ac-5ae809e5766d&style=1
-正式：
+正式： 稍微提供
 ```
 
 ###PC平台
 ```
 测试： http://qa.maxfun.co/pc?page=1&token=7f6e9443-708b-42cf-a6ac-5ae809e5766d&style=1
-正式： 
+正式： 稍微提供 
 ```
 
 
@@ -46,3 +46,6 @@
         </tr>
     </thead>
 <table>
+
+### demo展示
+![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
