@@ -52,6 +52,8 @@
 ####1.移动端数据魔方
 <img src="http://7xnvcz.com1.z0.glb.clouddn.com/demo/demo.jpg" width="50%" height="50%">
 
+
+
 ####2.PC端数据魔方
-<img src="http://7xnvcz.com1.z0.glb.clouddn.com/demo/demo1.png" width="50%" height="50%">
+<img src="http://7xnvcz.com1.z0.glb.clouddn.com/demo/demo1.jpg" width="50%" height="50%">
 
