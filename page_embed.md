@@ -2,18 +2,22 @@
 # 页面的嵌入
 我们会提供一序列页面，让第三方商能方便的把这些页面嵌入到自己系统中，无缝衔接。
 
-#URL
+##URL
 
-##移动平台
+###移动平台
+```
 测试： http://qa.maxfun.co/mobile?page=1&token=7f6e9443-708b-42cf-a6ac-5ae809e5766d&style=1
-正式： 
+正式：
+```
 
-##PC平台
+###PC平台
+```
 测试： http://qa.maxfun.co/pc?page=1&token=7f6e9443-708b-42cf-a6ac-5ae809e5766d&style=1
 正式： 
+```
 
 
-#参数说明
+##参数说明
 <table data-tablesaw-sortable>
     <thead>
         <tr>
@@ -40,11 +44,5 @@
             <td>页面样式风格，默认为1 （现在暂时仅支持1，稍后会增加更多）</th>
             <td>否</th>
         </tr>
-	<tr>
-            <td>merchant_type</th>
-            <td>字符型</th>
-            <td>商户类型</th>
-            <td>否</th>
-    </tr>
     </thead>
 <table>
