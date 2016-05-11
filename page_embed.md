@@ -48,4 +48,6 @@
 <table>
 
 ### demo展示
-![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
+
+####移动端数据魔方
+![image](http://7xnvcz.com1.z0.glb.clouddn.com/demo/demo.jpg)
