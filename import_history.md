@@ -113,7 +113,12 @@
 	"status": {
 		"code": "200"
 	},
-	"result": "process done. total process 1000 record."
+	"result": {
+		"total_count":1000,
+		"success_count":998,
+		"fail_identifier_list":['01800138000'],
+		"message":"手机号码格式不正确，跳过该手机号码:01800138000 \n"
+	}
 }
 ```
 
