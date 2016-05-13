@@ -6,14 +6,14 @@
 
 ###移动端
 ```
-测试： http://qa.maxfun.co/mobile?page=1&token=7f6e9443-708b-42cf-a6ac-5ae809e5766d&style=1
-正式： 稍微提供
+测试： http://qa.maxfun.co/mobile?page=1&style=1&token={token}
+正式： https://tp.maxfun.co/mobile?page=1&style=1&token={token}
 ```
 
 ###PC端
 ```
-测试： http://qa.maxfun.co/pc?page=1&token=7f6e9443-708b-42cf-a6ac-5ae809e5766d&style=1
-正式： 稍微提供 
+测试： http://qa.maxfun.co/pc?page=1&style=1&token={token}
+正式： https://tp.maxfun.co/pc?page=1&style=1&token={token} 
 ```
 
 
