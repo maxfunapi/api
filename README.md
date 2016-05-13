@@ -4,7 +4,7 @@
 ### API访问URL
    
   * 测试环境： https://demo.maxfun.co/
-  * 正式环境： 稍后提供
+  * 正式环境： https://openapi.maxfun.co/
 
 
 ###  Header token格式
