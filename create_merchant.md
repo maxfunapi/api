@@ -25,7 +25,7 @@
 	"identifier_type" : 3,
 	"password":"pdwdzzz",
 	"login_name":"loginname",
-	"developer_key":"maxfun"
+	"developer_key":"asdfaefasd-asdfw3hrtgn-asfgrerawe124easd"
  }
 ```
 <table data-tablesaw-sortable>
