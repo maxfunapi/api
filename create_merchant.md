@@ -88,7 +88,7 @@
 	<tr>
 		<td>login_name</th>
 		<td>字符型</th>
-		<td>用户登录名称</th>
+		<td>用户登录名称,可以为空</th>
 		<td>是</th>
 	</tr>
 	<tr>
