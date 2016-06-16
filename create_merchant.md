@@ -24,7 +24,8 @@
  	"create_time": "2016-03-24 17:21:40",
 	"identifier_type" : 3,
 	"password":"pdwdzzz",
-	"login_name":"loginname"
+	"login_name":"loginname",
+	"developer_key":"maxfun"
  }
 ```
 <table data-tablesaw-sortable>
@@ -88,6 +89,12 @@
 		<td>login_name</th>
 		<td>字符型</th>
 		<td>用户登录名称</th>
+		<td>是</th>
+	</tr>
+	<tr>
+		<td>developer_key</th>
+		<td>字符型</th>
+		<td>开发者key,由一满乐提供</th>
 		<td>是</th>
 	</tr>
     </thead>
