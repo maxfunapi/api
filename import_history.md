@@ -57,7 +57,7 @@
 	</tr>
 	<tr>
 		<td>purchase_time</th>
-		<td>数字型</th>
+		<td>字符型</th>
 		<td>用户消费时间 格式(yyyy-MM-dd HH:mm:ss)</th>
 		<td>是</th>
 	</tr>
