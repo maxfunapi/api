@@ -16,20 +16,22 @@
 
 ## Request
 ```
-  {
-      	"transaction_id": "11111",
-      	"customer_identifier": "13592619028",
-      	"purchase_time": "2016-03-24 10:10:00",
-      	"purchase_amount": 14.1,
-      	"coupon_detail_id": 123456,
-      	"coupon_amount": 0.8,
-      	"wx_coupon_amount":0.1,
-      	"gender": "male",
-      	"customer_nick_name": "ethan",
-      	"customer_country": " 中国",
-      	"customer_province": "广东",
-      	"customer_city": "深圳"
+{
+    "transaction_id": "12345wefr23r",
+    "customer_identifier": "13592619028",
+    "identifier_type": 3,
+    "purchase_time": "2016-03-24 10:10:00",
+    "purchase_amount": 14.1,
+    "coupon_detail_id": 123456,
+    "coupon_amount": 0.8,
+    "wx_coupon_amount": 0,
+    "gender": 1,
+    "customer_nick_name": "ethan",
+    "customer_country": " 中国",
+    "customer_province": "广东",
+    "customer_city": "深圳"
 }
+
 ```
 <table data-tablesaw-sortable>
     <thead>
@@ -73,6 +75,12 @@
             <td>coupon_amount</th>
             <td>double</th>
             <td>使用优惠券金额</th>
+            <td>否</th>
+        </tr>
+        <tr>
+            <td>wx_coupon_amount</th>
+            <td>double</th>
+            <td>微信优惠券金额</th>
             <td>否</th>
         </tr>
 	<tr>
