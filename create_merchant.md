@@ -82,13 +82,13 @@
 	<tr>
 		<td>password</th>
 		<td>字符型</th>
-		<td>商户登录密码</th>
+		<td>商户登录密码，由第三方提供</th>
 		<td>是</th>
 	</tr>
 	<tr>
 		<td>login_name</th>
 		<td>字符型</th>
-		<td>用户登录名称</th>
+		<td>用户登录名称，由第三方提供，要求是唯一的</th>
 		<td>是</th>
 	</tr>
 	<tr>
