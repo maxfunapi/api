@@ -63,7 +63,7 @@
             <td>purchase_time</th>
             <td>字符型</th>
             <td>购买时间，格式为yyyy-mm-dd HH:mm:ss</th>
-            <td>否</th>
+            <td>是</th>
         </tr>
 	<tr>
             <td>purchase_amount</th>
