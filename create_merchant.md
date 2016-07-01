@@ -22,9 +22,6 @@
  	"merchant_type": "餐饮",
  	"merchant_city": "深圳",
  	"create_time": "2016-03-24 17:21:40",
-	"identifier_type" : 3,
-	"password":"pdwdzzz",
-	"login_name":"loginname",
 	"developer_key":"asdfaefasd-asdfw3hrtgn-asfgrerawe124easd"
  }
 ```
@@ -73,24 +70,6 @@
             <td>商户开店时间 格式为yyyy-MM-dd HH:mm:ss</th>
             <td>否</th>
         </tr>
-	<tr>
-		<td>identifier_type</th>
-		<td>数字型</th>
-		<td>用户类型：1表示微信；2表示支付宝；3表示电话号码；</th>
-		<td>是</th>
-	</tr>
-	<tr>
-		<td>password</th>
-		<td>字符型</th>
-		<td>商户登录密码，由第三方提供</th>
-		<td>是</th>
-	</tr>
-	<tr>
-		<td>login_name</th>
-		<td>字符型</th>
-		<td>用户登录名称，由第三方提供，要求是唯一的</th>
-		<td>是</th>
-	</tr>
 	<tr>
 		<td>developer_key</th>
 		<td>字符型</th>
