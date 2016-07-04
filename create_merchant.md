@@ -90,8 +90,7 @@
 	"result": {
 		"login_name":"maxfun",
 		"app_id":"app_id",
-		"app_secret":"app_secret",
-		"openapi_user_id":1
+		"app_secret":"app_secret"
 	}
 }
 ```
