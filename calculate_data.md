@@ -24,8 +24,6 @@
 		"code": "200",
 		"message": "success"
 	},
-	"result": {
-	  "success"
-	}
+	"result": "success"
 }
 ```
