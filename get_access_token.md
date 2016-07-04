@@ -45,8 +45,7 @@
 		"message": "success"
 	},
 	"result": {
-		"access_token":"token",
-		"expires_time": 604800 
+		"access_token":"token"
 	}
 }
 ```
