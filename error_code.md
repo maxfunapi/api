@@ -7,13 +7,9 @@
             <th data-tablesaw-sortable-col>错误说明</th>
         </tr>
 	<tr>
-            <td>VAO01</th>
+            <td>VA01</th>
             <td>不正确的输入</th>
         </tr>
-        <tr>
-            <td>SE00</th>
-            <td>服务器异常</th>
-	</tr>
 	<tr>
             <td>SE01</th>
             <td>数据已存在</th>
@@ -30,8 +26,12 @@
             <td>SE04</th>
             <td>数据不匹配</th>
         </tr>
+        <tr>
+            <td>SE05</th>
+            <td>服务器异常</th>
+	</tr>
 	<tr>
-            <td>RUN01</th>
+            <td>SE06</th>
             <td>上次计算还未结束</th>
 	</tr>
     </thead>
