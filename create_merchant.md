@@ -89,7 +89,6 @@
 	},
 	"result": {
 		"name":"alipp测试",
-		"login_name":"maxfun",
 		"app_id":"app_id",
 		"app_secret":"app_secret"
 	}
