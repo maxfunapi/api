@@ -123,8 +123,6 @@
 		"code": "200",
 		"message": "success"
 	},
-	"result": {
-	        "transaction_id":123456
-	}
+	"result": 123456
 }
 ```
