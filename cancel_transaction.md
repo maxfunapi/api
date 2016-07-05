@@ -3,7 +3,7 @@
 如果交易被取消可调用此接口来取消这单交易
 
 ## URL
-   {BASE_URL}/tp/services/cancle_transaction
+   {BASE_URL}/tp/services/cancel_transaction
 
 ## Method
    POST
