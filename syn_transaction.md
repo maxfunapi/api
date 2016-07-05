@@ -28,7 +28,20 @@
     "customer_nick_name": "ethan",
     "customer_country": " 中国",
     "customer_province": "广东",
-    "customer_city": "深圳"
+    "customer_city": "深圳",
+	"goods_list":[
+		{
+            "goods_id": 1,
+            "goods_name": "鱼香茄子",
+            "quantity": 1,
+            "unit_price": 12.0
+        },{
+            "goods_id": 2,
+            "goods_name": "肉末麻婆豆腐",
+            "quantity": 2,
+            "unit_price": 12.0
+        }
+	]
 }
 
 ```
@@ -111,6 +124,36 @@
             <td>字符型</th>
             <td>用户城市</th>
             <td>否</th>
+        </tr>
+		<tr>
+            <td>goods_list</th>
+            <td>数组</th>
+            <td>消费商品列表</th>
+            <td>否</th>
+        </tr>
+		<tr>
+            <td>goods_id</th>
+            <td>数字型</th>
+            <td>商品id</th>
+            <td>是</th>
+        </tr>
+		<tr>
+            <td>goods_name</th>
+            <td>字符型</th>
+            <td>商品名称</th>
+            <td>是</th>
+        </tr>
+		<tr>
+            <td>quantity</th>
+            <td>数字型</th>
+            <td>购买数量</th>
+            <td>是</th>
+        </tr>
+		<tr>
+            <td>unit_price</th>
+            <td>数字型</th>
+            <td>商品单价</th>
+            <td>是</th>
         </tr>
     </thead>
 <table>
