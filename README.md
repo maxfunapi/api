@@ -9,7 +9,7 @@
   * Authorization: bearer {access_token}
   
 ---
-#### 接入流程
+#### 接入流程说明
   我们推荐一般按照下面的步骤进行数据的对接：  
   1. 创建一个商户（先要联系一满乐获取developer_key）,成功后返回值里面会有app_id和app_secret，第三方需要保存起来,每个商户会定义一个app_id和app_secret；  
   2. 通过上一步得到的appid和appscret获取访问其他接口用的token（token是一家店的标识，该token不会过期，如果调用多次会返回不同的token值）；  
