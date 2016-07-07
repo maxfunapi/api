@@ -6,10 +6,11 @@
   * 测试环境： https://demo.maxfun.co/
   * 正式环境： https://openapi.maxfun.co/
 
-
+---
 ##  Header token格式
   * Authorization: bearer {access_token}
-
+  
+---
 ## 接入流程
   我们推荐一般按照下面的步骤进行数据的对接：  
   1.创建一个商户（先要联系一满乐公司获取developer_key）,成功后返回值里面会有appid和appsecret，第三方想要保存起来；  
@@ -19,6 +20,7 @@
   5.实时交易数据的同步；
   6.报表页面的嵌入；
 
+---
 ## 接口说明
   * [创建商户](https://github.com/maxfunapi/api/blob/master/create_merchant.md)
   * [获取访问token](https://github.com/maxfunapi/api/blob/master/get_access_token.md)
