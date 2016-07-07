@@ -2,6 +2,8 @@
 
 本接口用于历史消费数据导入
 
+导完历史数据后推荐手动调用一次<a href=''>表报计算</a>的接口，才能马上看到报表展示。 我们后台每天凌晨会自动执行一次报表计算的任务。
+
 ## URL
    {BASE_URL}/tp/services/import_transaction_history
 
