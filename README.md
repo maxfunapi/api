@@ -3,8 +3,8 @@
 
 ## API访问URL
    
-  ** 测试环境： https://demo.maxfun.co/
-  ** 正式环境： https://openapi.maxfun.co/
+  * 测试环境： https://demo.maxfun.co/
+  * 正式环境： https://openapi.maxfun.co/
 
 
 ##  Header token格式
@@ -17,7 +17,7 @@
   * 3.历史消费数据同步（通过上一步获取的token）；
   * 4.历史数据同步完成后，需要调用报表计算接口，会立即生成报表（如果不手动调用接口，报表不会立即生成，每天凌晨后台有任务定时   计算生成报表）；
   * 5.实时交易数据的同步；
-  * 6.报表页面的嵌入
+  * 6.报表页面的嵌入；
 
 ## 接口说明
   * [创建商户](https://github.com/maxfunapi/api/blob/master/create_merchant.md)
