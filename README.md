@@ -27,4 +27,4 @@
   * [历史消费数据导入](https://github.com/maxfunapi/api/blob/master/import_history.md)
   * [页面嵌入](https://github.com/maxfunapi/api/blob/master/page_embed.md)
   * [报表计算](https://github.com/maxfunapi/api/blob/master/calculate_data.md)
-  * [错误码说明](https://github.com/maxfunapi/api/blob/master/error_code.md)
+  * [错误码说明](https://github.com/maxfunapi/api/blob/master/docs/error_code.md)
