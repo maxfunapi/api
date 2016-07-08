@@ -22,9 +22,9 @@
 #### 接口说明
   * [创建商户](https://github.com/maxfunapi/api/blob/master/docs/create_merchant.md)
   * [获取访问token](https://github.com/maxfunapi/api/blob/master/docs/get_access_token.md)
+  * [历史消费数据导入](https://github.com/maxfunapi/api/blob/master/docs/import_history.md)
   * [实时交易同步](https://github.com/maxfunapi/api/blob/master/docs/syn_transaction.md)
   * [取消交易](https://github.com/maxfunapi/api/blob/master/docs/cancel_transaction.md)
-  * [历史消费数据导入](https://github.com/maxfunapi/api/blob/master/docs/import_history.md)
   * [页面嵌入](https://github.com/maxfunapi/api/blob/master/docs/page_embed.md)
   * [报表计算](https://github.com/maxfunapi/api/blob/master/docs/calculate_data.md)
   * [错误码说明](https://github.com/maxfunapi/api/blob/master/docs/error_code.md)
