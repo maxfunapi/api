@@ -77,7 +77,7 @@
 	<tr>
 		<td>purchase_amount</th>
 		<td>数字型</th>
-		<td>用户消费金额</th>
+		<td>用户消费金额，单位为“元”</th>
 		<td>是</th>
 	</tr>
 	<tr>
