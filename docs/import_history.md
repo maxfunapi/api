@@ -136,7 +136,7 @@
         </tr>
 		<tr>
             <td>quantity</th>
-            <td>数字型</th>
+            <td>数字型（整型）</th>
             <td>购买数量</th>
             <td>是</th>
         </tr>
