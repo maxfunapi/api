@@ -3,10 +3,6 @@
 ---   
   * 测试环境： https://demo.maxfun.co/
   * 正式环境： https://openapi.maxfun.co/
-
----
-####  Header token格式
-  * Authorization: bearer {access_token}
   
 ---
 #### 接入流程说明
