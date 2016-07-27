@@ -5,7 +5,8 @@
  3. 智能发券触发时，会推送报文到优惠券明细推送URL,并返回指定格式内容,以便优惠券使用核销;
  
 #MD5签名对比说明
-以下提供了一个java类。
+以下提供了demo附件。
+<a href='http://7xlef9.com1.z0.glb.clouddn.com/demo%2Fjava_demo.zip'>下载<a>
 ```
 把附件的Java类复制到代码中
 使用示例:
