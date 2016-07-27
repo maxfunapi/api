@@ -12,10 +12,11 @@
 	{
 		"coupon_name" :"现金券",
 		"coupon_amount":10,
-		"min_buy_price":0,
+		"min_purchase_price":0,
 		"coupon_type":0,
-		"expiration_type":1,
-		"expiration_time":"2016-05-01 23:59:59",
+		"coupon_limit":0,
+		"campaign_start_time":"2016-05-01 00:00:00",
+		"campaign_end_time":"2016-05-05 23:59:59",
 		"expiration_interval":1,
 		"merchant_id":"88"
 	}
@@ -28,35 +29,50 @@
             <th data-tablesaw-sortable-col>描述</th>
         </tr>
 		<tr>
-				<td>coupon_name</th>
-				<td>字符串</th>
-				<td>优惠券名称</th>
-			</tr>
-		<tr>
-				<td>coupon_amount</th>
-				<td>数字型(Double)</th>
-				<td>优惠券金额</th>
-			</tr>
-		<tr>
-				<td>coupon_type</th>
-				<td>整型</th>
-				<td>优惠券类型 0:现金券 1:折扣券</th>
-			</tr>
-		<tr>
-				<td>expiration_type</th>
-				<td>整型</th>
-				<td>优惠券过期类型<br> 1:是指该优惠劵有统一的过期时间，根据expiration_time的值设定<br>2:是指该优惠劵的过期时间是动态的，根据expiration_interval的值设定</th>
+				<td>coupon_name</td>
+				<td>字符串</td>
+				<td>优惠券名称</td>
 		</tr>
 		<tr>
-				<td>expiration_interval</th>
-				<td>整型</th>
-				<td>动态设置优惠劵的时间间隔天数</th>
+				<td>coupon_amount</td>
+				<td>数字型(Double)</td>
+				<td>优惠券金额，折扣7.5折</td>
+		</tr>
+		<tr>
+				<td>min_purchase_price</td>
+				<td>数字型(Double)</td>
+				<td>最低消费金额</td>
+		</tr>
+		<tr>
+				<td>coupon_type</td>
+				<td>整型</td>
+				<td>优惠券类型 0:现金券 1:折扣券</td>
+		</tr>
+		<tr>
+				<td>coupon_limit</td>
+				<td>整型</td>
+				<td>优惠券发送限额</td>
+		</tr>
+		<tr>
+				<td>expiration_interval</td>
+				<td>整型</td>
+				<td>优惠劵的过期时间间隔天数</td>
 		</tr>
 		<tr>
 		<tr>
-				<td>merchant_id</th>
-				<td>字符串</th>
-				<td>第三方商户ID(与创建商户接口的merchant_id字段相同)</th>
+				<td>merchant_id</td>
+				<td>字符串</td>
+				<td>第三方商户ID(与创建商户接口的merchant_id字段相同)</td>
+		</tr>
+		<tr>
+				<td>campaign_start_time</td>
+				<td>字符串</td>
+				<td>活动开始时间字符串, 格式yyyy-MM-dd HH:mm:ss</td>
+		</tr>
+		<tr>
+				<td>campaign_end_time</td>
+				<td>字符串</td>
+				<td>活动结束时间字符串, 格式yyyy-MM-dd HH:mm:ss</td>
 		</tr>
     </thead>
 <table>
@@ -65,7 +81,7 @@
 ```
 	{
 		"result" : {
-			"coupon_id" : "111"
+			"campaign_id" : "111"
 		}
 	}
 ```
@@ -77,10 +93,13 @@
 ##推送报文格式
 ```
 	{
-		"identifier" :"13800138000",
-		"expiration_time":"2016-05-01 23:59:59",
-		"coupon_id":"111",
-		"merchant_id":"88"
+		"identifier":"18520869180",
+		"merchant_id":"11",
+		"campaign_id":"3",
+		"expiration_time":"2016-07-30 00:00:00",
+		"coupon_type":0,
+		"coupon_amount":10,
+		"min_purchase_price":0
 	}
 ```
 <table data-tablesaw-sortable>
@@ -101,15 +120,30 @@
 			<td>优惠券过期时间 格式:yyyy-MM-dd HH:mm:ss</th>
 		</tr>
 		<tr>
-			<td>coupon_id</th>
+			<td>campaign_id</th>
 			<td>字符串</th>
-			<td>第三方优惠券ID(推送创建优惠券返回的优惠券ID)</th>
+			<td>第三方优惠券ID(推送创建优惠券返回的ID)</th>
 		</tr>
 		<tr>
 		<tr>
 			<td>merchant_id</th>
 			<td>字符串</th>
 			<td>第三方商户ID(与创建商户接口的merchant_id字段相同)</th>
+		</tr>
+		<tr>
+				<td>coupon_amount</td>
+				<td>数字型(Double)</td>
+				<td>优惠券金额，折扣7.5折即是7.5</td>
+		</tr>
+		<tr>
+				<td>min_purchase_price</td>
+				<td>数字型(Double)</td>
+				<td>最低消费金额</td>
+		</tr>
+		<tr>
+				<td>coupon_type</td>
+				<td>整型</td>
+				<td>优惠券类型 0:现金券 1:折扣券</td>
 		</tr>
     </thead>
 <table>
