@@ -24,15 +24,15 @@
 ##推送报文格式
 ```
 	{
+		"merchant_id":"88ydr",
+		"campaign_name" :"流失顾客将流失挽留",
  		"campaign_start_time":"2016-05-01 00:00:00",
 		"campaign_end_time":"2016-05-05 23:59:59",
-		"coupon_name" :"现金券",
-		"coupon_amount":10,
-		"min_purchase_price":0,
 		"coupon_type":0,
+		"coupon_amount":10,
+		"min_purchase_price":100,
+		"expiration_interval":15,
 		"coupon_limit":0,
-		"expiration_interval":1,
-		"merchant_id":"88",
 		"data_signature":"6F3FCD4608978BA4BDD9067AB2672F78"
 	}
 ```
@@ -41,9 +41,18 @@
         <tr>
             <th data-tablesaw-sortable-col data-tablesaw-sortable-default-col>字段名称</th>
             <th data-tablesaw-sortable-col>类型</th>
-            <th data-tablesaw-sortable-col>是否必填</th>
             <th data-tablesaw-sortable-col>描述</th>
         </tr>
+		<tr>
+				<td>merchant_id</td>
+				<td>字符串</td>
+				<td>第三方商户ID(与创建商户接口的merchant_id字段相同)</td>
+		</tr>
+		<tr>
+				<td>campaign_name</td>
+				<td>字符串</td>
+				<td>优惠券名称</td>
+		</tr>
         	<tr>
 				<td>campaign_start_time</td>
 				<td>字符串</td>
@@ -53,11 +62,6 @@
 				<td>campaign_end_time</td>
 				<td>字符串</td>
 				<td>活动结束时间, 格式yyyy-MM-dd HH:mm:ss</td>
-		</tr>
-		<tr>
-				<td>coupon_name</td>
-				<td>字符串</td>
-				<td>优惠券名称</td>
 		</tr>
 		<tr>
 				<td>coupon_type</td>
@@ -86,14 +90,8 @@
 		</tr>
 		<tr>
 		<tr>
-				<td>merchant_id</td>
-				<td>字符串</td>
-				<td>第三方商户ID(与创建商户接口的merchant_id字段相同)</td>
-		</tr>
-		<tr>
 				<td>data_signature</td>
-				<td>字符串</td>
-				<td>除去data_signature字段外，其他字段按ASCII字典序排序加上developerKey生成的报文MD5签名</td>
+				<td>字符串</td>	<td>除去data_signature字段外，其他字段按ASCII字典序排序加上developerKey生成的报文MD5签名</td>
 		</tr>
     </thead>
 <table>
