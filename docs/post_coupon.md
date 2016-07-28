@@ -51,7 +51,7 @@
 		<tr>
 				<td>campaign_name</td>
 				<td>字符串</td>
-				<td>优惠券名称</td>
+				<td>活动名称，如流失顾客将流失挽留</td>
 		</tr>
         	<tr>
 				<td>campaign_start_time</td>
