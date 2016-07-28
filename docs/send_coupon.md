@@ -29,7 +29,9 @@
 		"coupon_amount":10,
 		"min_purchase_price":100,
 		"expiration_time":"2016-07-30 00:00:00",
-		"data_signature":"E42EB1F912BF43BEA69F0382FFF440D2"
+		"data_signature":"E42EB1F912BF43BEA69F0382FFF440D2",
+		"signature_time":"1469707218373"
+		
 	}
 ```
 <table data-tablesaw-sortable>
@@ -78,7 +80,7 @@
 		<tr>
 				<td>data_signature</td>
 				<td>字符串</td>
-				<td>除去data_signature字段外，其他字段按ASCII字典序排序加上developerKey生成的报文MD5签名</td>
+				<td>除去data_signature字段外，developerKey加上signature_time生成的报文MD5签名</td>
 		</tr>
     </thead>
 <table>
