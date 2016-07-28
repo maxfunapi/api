@@ -41,6 +41,7 @@
         <tr>
             <th data-tablesaw-sortable-col data-tablesaw-sortable-default-col>字段名称</th>
             <th data-tablesaw-sortable-col>类型</th>
+            <th data-tablesaw-sortable-col>是否必填</th>
             <th data-tablesaw-sortable-col>描述</th>
         </tr>
         	<tr>
@@ -59,29 +60,29 @@
 				<td>优惠券名称</td>
 		</tr>
 		<tr>
+				<td>coupon_type</td>
+				<td>整型</td>
+				<td>当前支持2种优惠券类型 0:现金券 1:折扣券</td>
+		</tr>
+		<tr>
 				<td>coupon_amount</td>
-				<td>数字型(Double)</td>
-				<td>优惠券金额，折扣7.5折</td>
+				<td>Double</td>
+				<td>优惠券金额，根据优惠券类型不同，例如：100元 或者 7.5折</td>
 		</tr>
 		<tr>
 				<td>min_purchase_price</td>
-				<td>数字型(Double)</td>
-				<td>最低消费金额</td>
-		</tr>
-		<tr>
-				<td>coupon_type</td>
-				<td>整型</td>
-				<td>优惠券类型 0:现金券 1:折扣券</td>
-		</tr>
-		<tr>
-				<td>coupon_limit</td>
-				<td>整型</td>
-				<td>优惠券发送限额</td>
+				<td>Double</td>
+				<td>最低消费金额，在发满减券时使用，无最低消费金额限制的此处为0</td>
 		</tr>
 		<tr>
 				<td>expiration_interval</td>
 				<td>整型</td>
-				<td>优惠劵的过期时间间隔天数</td>
+				<td>优惠劵过期时间间隔天数，比如此处为15表示优惠券在发送后15日内有效</td>
+		</tr>
+		<tr>
+				<td>coupon_limit</td>
+				<td>整型</td>
+				<td>优惠券发送限额，在有优惠券张数预算时使用，比如某个活动商家最多只想发100张券</td>
 		</tr>
 		<tr>
 		<tr>
