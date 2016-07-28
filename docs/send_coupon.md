@@ -3,12 +3,16 @@
 本接口由合作方提供，下面是为了说明合作方将收到的报文内容.
 
 ### URL
+```
    回调url，由合作方在一满了合作方后台配置，在发送优惠券的时候，相关报文会通过该url推送给合作方。
    * 测试环境配置地址： <a href="http://qa.maxfun.co" target="_blank">http://qa.maxfun.co</a>
    * 正式环境配置地址： <a href='https://tp.maxfun.co' target='_blank'>https://tp.maxfun.co</a>
+```
 
 ### Method
+```
    POST
+   ```
 
 ### Headers
 ```
