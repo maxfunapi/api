@@ -7,8 +7,8 @@
 ---
 ### 回调url配置地址
 
- 测试环境： http://qa.maxfun.co/   
- 正式环境： https://tp.maxfun.co/
+ * 测试环境： http://qa.maxfun.co/ 
+ * 正式环境： https://tp.maxfun.co/
 
 ---
 ### 接口说明
