@@ -4,8 +4,8 @@
 
 ### URL
    回调url，由合作方在一满了合作方后台配置，在发送优惠券的时候，相关报文会通过该url推送给合作方。
-   * 测试环境配置地址： http://qa.maxfun.co/ 
-   * 正式环境配置地址： https://tp.maxfun.co/
+   * 测试环境配置地址： <a href='http://qa.maxfun.co' target='_blank'>http://qa.maxfun.co</a>
+   * 正式环境配置地址： <a href='https://tp.maxfun.co' target='_blank'>https://tp.maxfun.co</a>
 
 ### Method
    POST
