@@ -19,4 +19,4 @@
 
 ---
 
-<a href="">Java demo下载</a>
+<a href="http://7xlef9.com1.z0.glb.clouddn.com/demo/java_demo.zip">Java demo下载</a>
