@@ -10,8 +10,7 @@
   示例：
    Boolean isValid = sign.equals(data_signature);
    也可以使用demo内提供的Java的签名验证工具
-   Boolean isValid = SignatureUtil.checkSignValid("developer_key", 
-           requestVO.getSignatureTime(), requestVO.getDataSignature());
+   Boolean isValid = SignatureUtil.checkSignValid("developer_key", signature_time, data_signature);
    isValid返回true表示MD5值对比一致，相反则报文非法。
  ```
  ---
