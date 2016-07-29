@@ -102,8 +102,6 @@
 ### Response
 ```
 	{
-		"result" : {
-			"campaign_id" : "111"
-		}
+		"campaign_id" : "111"
 	}
 ```
