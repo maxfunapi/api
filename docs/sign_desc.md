@@ -8,10 +8,10 @@
  Pseudocode示例:
  ```
    //根据收到的signature_time和原有的developer_key生成新的字符串
-   String newsign = MD5(developer_key + signature_timep);
+     String newsign = MD5(developer_key + signature_timep);
    
    //用和生成的内容和报文里的data_signature进行比较
-   Boolean isValid = newsign.equals(data_signature)
+     Boolean isValid = newsign.equals(data_signature)
    
 ```
  
