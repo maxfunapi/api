@@ -9,6 +9,7 @@
 
  * 测试环境： http://qa.maxfun.co/ 
  * 正式环境： https://tp.maxfun.co/
+ <img src="http://7xnvcz.com1.z0.glb.clouddn.com/demo/img_setting.png" width="50%" height="50%">
 
 ---
 ### 接口说明
