@@ -29,6 +29,6 @@
 
 ---
 ### 优惠券对接 
-  点击查看<a href='https://github.com/maxfunapi/api/blob/master/docs/coupon.md'>优惠券对接详情</a>；
+  <a href='https://github.com/maxfunapi/api/blob/master/docs/coupon.md'>查看优惠券对接详情</a>；
  
 
