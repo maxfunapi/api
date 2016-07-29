@@ -80,7 +80,7 @@
 		<tr>
 				<td>data_signature</td>
 				<td>字符串</td>
-				<td>除去data_signature字段外，developerKey加上signature_time生成的报文MD5签名</td>
+				<td>除去data_signature字段外，developer_key加上signature_time生成的报文MD5签名</td>
 		</tr>
 		<tr>
 				<td>signature_time</td>
