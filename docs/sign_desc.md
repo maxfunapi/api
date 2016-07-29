@@ -1,8 +1,8 @@
 ### 签名详情 
 
- 签名是为了确保合作方都到的报文来源合法，报文里都包含了data_signature和signature_time两个字段，校验步骤：  
- *  Step1: 请使用一满乐提供的developer_key加上signature_time进行MD5加密，生成一个字符串；
- *  Step2: 用和生成的内容和报文里的data_signature进行比较，一致说明合法，否者为非法；
+ 本签名是为了确保合作方收到的报文来源合法，报文里都包含了data_signature和signature_time两个字段，校验步骤：  
+ *  Step1: 用一满乐提供的developer_key加上signature_time进行MD5加密，生成一个签名字符串；
+ *  Step2: 比较生成的字符串和报文里的data_signature，一致说明合法，否者为非法；
  
 ---
 
