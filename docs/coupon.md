@@ -13,4 +13,4 @@
 ---
 ### 接口说明
   * [创建营销活动](https://github.com/maxfunapi/api/blob/master/docs/create_campaign.md)
-  * [发券](https://github.com/maxfunapi/api/blob/master/docs/send_coupon.md)
+  * [发送优惠券](https://github.com/maxfunapi/api/blob/master/docs/send_coupon.md)
