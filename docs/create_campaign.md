@@ -102,6 +102,6 @@
 ### Response
 ```
 	{
-		"campaign_id" : "111"
+		"campaign_id" : "ye111"
 	}
 ```
