@@ -94,8 +94,6 @@
 ### Response
 ```
 	{
-		"result" : {
-			"coupon_id" : "2222"
-		}
+		"coupon_id" : "2222"
 	}
 ```
