@@ -9,7 +9,7 @@
  Pseudocode示例:
  ```
      String newsign = MD5(developer_key + signature_time);  //生成新的签名字符串
-     Boolean isValid = newsign.equals(data_signature)；     //比较生成的内容和报文里的data_signature
+     Boolean isValid = newsign.equals(data_signature);      //比较生成的内容和报文里的data_signature
 ```
 
 ---
