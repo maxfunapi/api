@@ -42,25 +42,25 @@
             <th data-tablesaw-sortable-col>描述</th>
         </tr>
 		<tr>
-			<td>campaign_id</th>
-			<td>字符串</th>
-			<td>合作方优惠券ID(推送创建优惠券返回的ID)</th>
+				<td>campaign_id</th>
+				<td>字符串</th>
+				<td>合作方优惠券ID(推送创建优惠券返回的ID)</th>
 		</tr>
 		<tr>
 		<tr>
-			<td>merchant_id</th>
-			<td>字符串</th>
-			<td>合作方商户ID(与创建商户接口的merchant_id字段相同)</th>
+				<td>merchant_id</th>
+				<td>字符串</th>
+				<td>合作方商户ID(与创建商户接口的merchant_id字段相同)</th>
 		</tr>
 		<tr>
-			<td>customer_identifier</th>
-			<td>字符串</th>
-			<td>用户唯一标识符</th>
+				<td>customer_identifier</th>
+				<td>字符串</th>
+				<td>用户唯一标识符</th>
 		</tr>
 		<tr>
 				<td>coupon_amount</td>
 				<td>Double</td>
-				<td>优惠券金额，折扣7.5折即是7.5</td>
+				<td>优惠券金额，折扣7.5折即是7.5，现金券100元即是100</td>
 		</tr>
 		<tr>
 				<td>min_purchase_price</td>
@@ -73,14 +73,19 @@
 				<td>优惠券类型 0:现金券 1:折扣券</td>
 		</tr>
 		<tr>
-			<td>expiration_time</th>
-			<td>字符串</th>
-			<td>优惠券过期时间 格式:yyyy-MM-dd HH:mm:ss</th>
+				<td>expiration_time</th>
+				<td>字符串</th>
+				<td>优惠券过期时间 格式:yyyy-MM-dd HH:mm:ss</th>
 		</tr>
 		<tr>
 				<td>data_signature</td>
 				<td>字符串</td>
 				<td>除去data_signature字段外，developerKey加上signature_time生成的报文MD5签名</td>
+		</tr>
+		<tr>
+				<td>signature_time</td>
+				<td>字符串</td>
+				<td>签名时间戳</td>
 		</tr>
     </thead>
 <table>
