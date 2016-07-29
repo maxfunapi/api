@@ -46,17 +46,17 @@
 		<tr>
 				<td>campaign_name</td>
 				<td>字符串</td>
-				<td>活动名称，如流失顾客将流失挽留</td>
+				<td>营销活动名称，如流失顾客将流失挽留</td>
 		</tr>
         	<tr>
 				<td>campaign_start_time</td>
 				<td>字符串</td>
-				<td>活动开始时间, 格式yyyy-MM-dd HH:mm:ss</td>
+				<td>营销活动开始时间, 格式yyyy-MM-dd HH:mm:ss</td>
 		</tr>
 		<tr>
 				<td>campaign_end_time</td>
 				<td>字符串</td>
-				<td>活动结束时间, 格式yyyy-MM-dd HH:mm:ss</td>
+				<td>营销活动结束时间, 格式yyyy-MM-dd HH:mm:ss</td>
 		</tr>
 		<tr>
 				<td>coupon_type</td>
