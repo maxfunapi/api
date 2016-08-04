@@ -21,7 +21,7 @@
     "customer_identifier": "13592619028",
     "purchase_time": "2016-03-24 10:10:00",
     "purchase_amount": 14.1,
-    "coupon_detail_id": 123456,
+    "coupon_id_list":["abc","12a"],
     "coupon_amount": 0.8,
     "wx_coupon_amount": 0,
     "gender": 1,
@@ -41,8 +41,7 @@
             "quantity": 2,
             "unit_price": 12.0
         }
-     ],
-     "coupon_id_list":["abc","12a"]
+     ]
 }
 
 ```
