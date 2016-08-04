@@ -41,7 +41,8 @@
             "quantity": 2,
             "unit_price": 12.0
         }
-	]
+     ],
+     "coupon_id_list":["abc","12a"]
 }
 
 ```
@@ -154,6 +155,12 @@
             <td>数字型</th>
             <td>商品单价</th>
             <td>是</th>
+        </tr>
+        <tr>
+            <td>coupon_id_list</td>
+            <td>数组</td>
+            <td>使用优惠券ID列表</td>
+            <td>否</td>
         </tr>
     </thead>
 <table>
