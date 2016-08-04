@@ -23,6 +23,7 @@
 			"customer_created_time":"20165-05-05 13:21:21",
 			"purchase_time":"2016-05-05 13:24:21",
 			"purchase_amount":18.5,
+			"coupon_id_list":["abc","12a"],
 			"gender":"male",
 			"customer_nick_name":"nick",
 			"customer_country":"中国",
@@ -41,8 +42,7 @@
 					"quantity": 2,
 					"unit_price": 12.0
 				}
-			],
-			"coupon_id_list":["abc","12a"]
+			]
 		},
 		{...}
 	]
