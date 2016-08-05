@@ -4,8 +4,6 @@
   * API接入（测试环境）： https://demo.maxfun.co/
   * API接入（正式环境）： https://openapi.maxfun.co/
   
----
-
 ---   
 
   * 合作方后台（测试环境）： http://qa.maxfun.co/
