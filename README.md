@@ -1,14 +1,18 @@
 ## 一满乐API文档
 
 ---   
-  * API测试环境： https://demo.maxfun.co/
-  * API正式环境： https://openapi.maxfun.co/
-  
-  
-  * 合作方后台测试环境： http://qa.maxfun.co/
-  * 合作方后台正式环境： https://tp.maxfun.co/
+  * API接入（测试环境）： https://demo.maxfun.co/
+  * API接入（正式环境）： https://openapi.maxfun.co/
   
 ---
+
+---   
+
+  * 合作方后台（测试环境）： http://qa.maxfun.co/
+  * 合作方后台（正式环境）： https://tp.maxfun.co/
+  
+---
+
 ### 数据接入流程说明
   我们推荐一般按照下面的步骤进行数据对接：  
   1. 创建一个商户（先要联系一满乐获取developer_key）,成功后返回值里面会有app_id和app_secret，合作方需要保存起来,每个商户会对应一个app_id和app_secret;  
