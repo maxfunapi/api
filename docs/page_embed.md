@@ -55,5 +55,5 @@
 
 
 ####2.PC端数据魔方  (http://qa.maxfun.co/pc?style=1&page=1&token=123456)
-<img src="http://7xnvcz.com1.z0.glb.clouddn.com/demo/demo1.jpg" width="50%" height="50%">
+<img src="http://7xnvcz.com1.z0.glb.clouddn.com/demo/img_index.png" width="50%" height="50%">
 
