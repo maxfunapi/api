@@ -74,13 +74,13 @@
 	<tr>
             <td>purchase_amount</th>
             <td>double</th>
-            <td>购买金额</th>
+            <td>购买金额，用户实际支付的金额</th>
             <td>是</th>
         </tr>
 	<tr>
             <td>coupon_amount</th>
             <td>double</th>
-            <td>使用优惠券金额</th>
+            <td>使用优惠券金额，优惠的金额</th>
             <td>否</th>
         </tr>
         <tr>
