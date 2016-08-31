@@ -44,7 +44,7 @@
 		<tr>
 				<td>campaign_id</th>
 				<td>字符串</th>
-				<td>合作方优惠券ID(推送创建优惠券返回的ID)</th>
+				<td>合作方营销活动ID(推送创建营销活动时返回的ID)</th>
 		</tr>
 		<tr>
 		<tr>
