@@ -19,6 +19,10 @@
 {
     "transaction_id": "12345wefr23r",
     "customer_identifier": "13592619028",
+    "customer_phone_number:"13800138000",
+    "year_of_birth":"1990",
+    "montd_of_birth":"10",
+    "day_of_birth":"01",
     "purchase_time": "2016-03-24 10:10:00",
     "purchase_amount": 14.1,
     "coupon_id_list":["abc","12a"],
@@ -41,11 +45,7 @@
             "quantity": 2,
             "unit_price": 12.0
         }
-     ],
-	 "customer_phone_number:"13800138000",
-	 "year_of_birtd":"1990",
-	 "montd_of_birtd":"10",
-	 "day_of_birtd":"01"
+     ]
 }
 
 ```
@@ -172,19 +172,19 @@
 			<td>否</th>
 		</tr>
 		<tr>
-			<td>year_of_birtd</th>
+			<td>year_of_birth</th>
 			<td>字符串</th>
 			<td>出生年</th>
 			<td>否</th>
 		</tr>
 		<tr>
-			<td>montd_of_birtd</th>
+			<td>montd_of_birth</th>
 			<td>字符串</th>
 			<td>出生月</th>
 			<td>否</th>
 		</tr>
 		<tr>
-			<td>day_of_birtd</th>
+			<td>day_of_birth</th>
 			<td>字符串</th>
 			<td>出生日</th>
 			<td>否</th>
