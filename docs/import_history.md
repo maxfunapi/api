@@ -22,9 +22,8 @@
 			"customer_identifier":"13800138000",
 			"customer_phone_number:"13800138000",
 			"year_of_birth":"1990",
-			"montd_of_birth":"10",
+			"month_of_birth":"10",
 			"day_of_birth":"01",
-			"customer_created_time":"20165-05-05 13:21:21",
 			"purchase_time":"2016-05-05 13:24:21",
 			"purchase_amount":18.5,
 			"coupon_id_list":["abc","12a"],
@@ -65,12 +64,6 @@
 		<td>customer_identifier</th>
 		<td>字符型</th>
 		<td>用户唯一标识符</th>
-		<td>是</th>
-	</tr>
-	<tr>
-		<td>customer_created_time</th>
-		<td>字符型</th>
-		<td>用户创建时间 格式(yyyy-MM-dd HH:mm:ss)</th>
 		<td>是</th>
 	</tr>
 	<tr>
@@ -170,7 +163,7 @@
 			<td>否</th>
 		</tr>
 		<tr>
-			<td>montd_of_birth</th>
+			<td>month_of_birth</th>
 			<td>字符串</th>
 			<td>出生月</th>
 			<td>否</th>
