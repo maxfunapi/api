@@ -42,7 +42,11 @@
 					"quantity": 2,
 					"unit_price": 12.0
 				}
-			]
+			],
+			"customer_phone_number:"13800138000",
+			"year_of_birtd":"1990",
+			"montd_of_birtd":"10",
+			"day_of_birtd":"01"
 		},
 		{...}
 	]
@@ -148,11 +152,35 @@
             <td>是</th>
         </tr>
         <tr>
-            <td>coupon_id_list</td>
-            <td>数组</td>
-            <td>使用优惠券ID列表</td>
-            <td>否</td>
+            <td>coupon_id_list</th>
+            <td>数组</th>
+            <td>使用优惠券ID列表</th>
+            <td>否</th>
         </tr>
+		<tr>
+			<td>customer_phone_number</th>
+			<td>字符串</th>
+			<td>用户手机号码</th>
+			<td>否</th>
+		</tr>
+		<tr>
+			<td>year_of_birtd</th>
+			<td>字符串</th>
+			<td>出生年</th>
+			<td>否</th>
+		</tr>
+		<tr>
+			<td>montd_of_birtd</th>
+			<td>字符串</th>
+			<td>出生月</th>
+			<td>否</th>
+		</tr>
+		<tr>
+			<td>day_of_birtd</th>
+			<td>字符串</th>
+			<td>出生日</th>
+			<td>否</th>
+		</tr>
     </thead>
 <table>
 
@@ -171,10 +199,3 @@
 	}
 }
 ```
-
-
-
- 
-
- 
-
