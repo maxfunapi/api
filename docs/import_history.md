@@ -20,6 +20,10 @@
  	"transaction_list":[
 		{
 			"customer_identifier":"13800138000",
+			"customer_phone_number:"13800138000",
+			"year_of_birth":"1990",
+			"montd_of_birth":"10",
+			"day_of_birth":"01",
 			"customer_created_time":"20165-05-05 13:21:21",
 			"purchase_time":"2016-05-05 13:24:21",
 			"purchase_amount":18.5,
@@ -42,11 +46,7 @@
 					"quantity": 2,
 					"unit_price": 12.0
 				}
-			],
-			"customer_phone_number:"13800138000",
-			"year_of_birth":"1990",
-			"montd_of_birth":"10",
-			"day_of_birth":"01"
+			]
 		},
 		{...}
 	]
