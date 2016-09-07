@@ -49,11 +49,11 @@
 
 ### Demo展示
 
-####1.移动端数据魔方  (http://qa.maxfun.co/mobile?style=1&page=1&token=123456)
+####1.移动端数据魔方  (http://qa.maxfun.co/mobile?style=1&page=1&token=15006fd8-94b3-4394-a1df-28946d22a787)
 <img src="http://7xnvcz.com1.z0.glb.clouddn.com/demo/demo.jpg" width="50%" height="50%">
 
 
 
-####2.PC端数据魔方  (http://qa.maxfun.co/pc?style=1&page=1&token=123456)
+####2.PC端数据魔方  (http://qa.maxfun.co/pc?style=1&page=1&token=15006fd8-94b3-4394-a1df-28946d22a787)
 <img src="http://7xnvcz.com1.z0.glb.clouddn.com/demo/img_index.png" width="50%" height="50%">
 
