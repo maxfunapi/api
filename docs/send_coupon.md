@@ -94,6 +94,8 @@
 ### Response
 ```
 	{
+		"return_code":"success/fail",
+        	"return_msg":"错误信息",
 		"coupon_id" : "2222"
 	}
 ```
