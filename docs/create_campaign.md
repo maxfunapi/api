@@ -101,7 +101,9 @@
 
 ### Response
 ```
-	{
+	{	
+		"return_code":"success/fail",
+		"return_msg":"错误信息",
 		"campaign_id" : "ye111"
 	}
 ```
