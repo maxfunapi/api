@@ -37,12 +37,6 @@
             <td>是</th>
         </tr>
 	<tr>
-            <td>customer_identifier</th>
-            <td>字符型</th>
-            <td>用户的唯一标识，如微信的openid</th>
-            <td>是</th>
-        </tr>
-	<tr>
             <td>switch_status</th>
             <td>数字型</th>
             <td>开关状态 0关 1开</th>
