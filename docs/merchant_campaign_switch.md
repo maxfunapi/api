@@ -17,7 +17,7 @@
 ## Request
 ```
 {
-	"developer_key":"maxfun",
+	"developer_key":"key",
 	"switch_status":0
 }
 
