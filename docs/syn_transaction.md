@@ -28,7 +28,7 @@
     "coupon_id_list":["abc","12a"],
     "coupon_amount": 0.8,
     "wx_coupon_amount": 0,
-    "gender": 1,
+    "gender": "male",
     "customer_nick_name": "ethan",
     "customer_country": " 中国",
     "customer_province": "广东",
