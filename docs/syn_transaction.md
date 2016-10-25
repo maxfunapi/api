@@ -94,12 +94,6 @@
             <td>否</th>
         </tr>
 	<tr>
-            <td>coupon_detail_id</th>
-            <td>数字型</th>
-            <td>满乐卡优惠券记录ID</th>
-            <td>否</th>
-        </tr>
-	<tr>
             <td>gender</th>
             <td>字符型</th>
             <td>性别 male表示男，female表示女</th>
