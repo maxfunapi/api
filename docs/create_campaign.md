@@ -31,7 +31,8 @@
 		"expiration_interval":15,
 		"coupon_limit":0,
 		"data_signature":"6F3FCD4608978BA4BDD9067AB2672F78",
-		"signature_time":"1469707218373"
+		"signature_time":"1469707218373",
+		"campaign_notice":"优惠券说明"
 	}
 ```
 <table data-tablesaw-sortable>
@@ -94,6 +95,11 @@
 		<tr>
 				<td>signature_time</td>
 				<td>字符串</td>	<td>签名时间戳</td>
+		</tr>
+		<tr>
+				<td>campaign_notice</td>
+				<td>字符串</td>	
+				<td>优惠券说明</td>
 		</tr>
     </thead>
 <table>
