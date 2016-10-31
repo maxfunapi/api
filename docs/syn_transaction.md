@@ -156,7 +156,7 @@
         <tr>
             <td>coupon_id_list</td>
             <td>数组</td>
-            <td>使用优惠券ID列表</td>
+            <td>优惠券核销、使用优惠券ID列表</td>
             <td>否</td>
         </tr>
 		<tr>
