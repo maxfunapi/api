@@ -187,7 +187,7 @@
 	"result": {
 		"total_count":1000,
 		"success_count":998,
-		"fail_identifier_list":['01800138000'],
+		"fail_transaction_id_list":['201608261629115566','20160826162911512436'],
 		"message":"手机号码格式不正确，跳过该手机号码:01800138000 \n"
 	}
 }
