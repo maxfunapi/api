@@ -15,7 +15,7 @@
   * [创建营销活动](https://github.com/maxfunapi/api/blob/master/docs/create_campaign.md)
   * [发送优惠券](https://github.com/maxfunapi/api/blob/master/docs/send_coupon.md)
   * [商户营销功能开关](https://github.com/maxfunapi/api/blob/master/docs/merchant_campaign_switch.md)
-  
+  * [核销优惠券](https://github.com/maxfunapi/api/blob/master/docs/consume_coupon.md)
 ---
 
 <a href="http://7xlef9.com1.z0.glb.clouddn.com/demo/java_demo.zip">Java demo下载</a>
