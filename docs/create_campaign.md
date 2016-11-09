@@ -65,12 +65,12 @@
 		<tr>
 				<td>coupon_type</td>
 				<td>整型</td>
-				<td>当前支持2种优惠券类型 0:现金券 1:折扣券</td>
+				<td>当前支持1种优惠券类型 0:现金券</td>
 		</tr>
 		<tr>
 				<td>coupon_amount</td>
 				<td>Double</td>
-				<td>优惠券金额，根据优惠券类型不同，例如：折扣券7.5折即是7.5，现金券100元即是100</td>
+				<td>优惠券金额</td>
 		</tr>
 		<tr>
 				<td>min_purchase_price</td>
