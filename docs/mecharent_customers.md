@@ -1,0 +1,108 @@
+# 查询商户用户列表
+
+ 查询商户用户列表
+
+## URL
+   {BASE_URL}/tp/services/mecharent_customers
+
+## Method
+   GET
+
+## Headers
+```
+   Authorization=bearer {access_token}
+```
+
+## Request
+```
+```
+<table data-tablesaw-sortable>
+    <thead>
+        <tr>
+            <th data-tablesaw-sortable-col data-tablesaw-sortable-default-col>字段名称</th>
+            <th data-tablesaw-sortable-col>类型</th>
+            <th data-tablesaw-sortable-col>描述</th>
+            <th data-tablesaw-sortable-col>是否必填</th>
+        </tr>
+		<tr>
+            <td>search_param</th>
+            <td>字符型</th>
+            <td>模糊搜索标识符和手机号码</th>
+            <td>否</th>
+        </tr>
+		<tr>
+            <td>register_date</th>
+            <td>字符型</th>
+            <td>注册时间:格式yyyy-MM-dd</th>
+            <td>否</th>
+        </tr>
+		<tr>
+            <td>limit</th>
+            <td>整型</th>
+            <td>每页数量，默认10</th>
+            <td>否</th>
+        </tr>
+		<tr>
+            <td>current_page</th>
+            <td>整型</th>
+            <td>当前第几页,默认1</th>
+            <td>否</th>
+        </tr>
+		<tr>
+            <td>rfm_group_id</th>
+            <td>整型</th>
+            <td>分组id</th>
+            <td>否</th>
+        </tr>
+		<tr>
+            <td>sorting</th>
+            <td>整型</th>
+            <td>排序 1 消费金额排序 2 最后消费时间排序</th>
+			<td>否</th>
+        </tr>
+    </thead>
+<table>
+## Response
+```
+{
+	"status": {
+		"code": "200",
+		"message": "success"
+	},
+	"result": "success"
+}
+```
+<table data-tablesaw-sortable>
+    <thead>
+        <tr>
+            <th data-tablesaw-sortable-col data-tablesaw-sortable-default-col>字段名称</th>
+            <th data-tablesaw-sortable-col>类型</th>
+            <th data-tablesaw-sortable-col>描述</th>
+        </tr>
+		<tr>
+            <td>customer_identifier</th>
+            <td>字符型</th>
+            <td>用户的唯一标识</th>
+        </tr>
+		<tr>
+            <td>gender</th>
+            <td>字符型</th>
+            <td>性别 male表示男，female表示女</th>
+        </tr>
+		<tr>
+            <td>last_purchase_time</th>
+            <td>字符型</th>
+            <td>最后消费时间， 格式:yyyy-MM-dd HH:ss:mm</th>
+        </tr>
+		<tr>
+            <td>total_purchase_amount</th>
+            <td>数字型</th>
+            <td>总消费金额</th>
+        </tr>
+		<tr>
+            <td>rfm_display</th>
+            <td>字符型</th>
+            <td>分组名称</th>
+        </tr>
+    </thead>
+<table>

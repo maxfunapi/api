@@ -31,8 +31,10 @@
   * [页面嵌入](https://github.com/maxfunapi/api/blob/master/docs/page_embed.md)
   * [报表计算](https://github.com/maxfunapi/api/blob/master/docs/calculate_data.md)
   * [错误码说明](https://github.com/maxfunapi/api/blob/master/docs/error_code.md)
+  * [修改用户信息](https://github.com/maxfunapi/api/blob/master/docs/customer_info.md)
+  * [查询RFM用户分组](https://github.com/maxfunapi/api/blob/master/docs/customer_group.md)
+  * [查询用户列表](https://github.com/maxfunapi/api/blob/master/docs/mecharent_customers.md)
   
-
 ---
 ### 优惠券对接 
   <a href='https://github.com/maxfunapi/api/blob/master/docs/coupon.md'>查看优惠券对接详情</a>
