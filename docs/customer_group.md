@@ -1,6 +1,6 @@
-# 用户rfm分组
+# 用户RFM分组
 
- 获取商户用户rfm分组
+ 获取商户用户RFM分组
 
 ## URL
    {BASE_URL}/tp/services/customer_group
