@@ -65,11 +65,28 @@
 ## Response
 ```
 {
-	"status": {
-		"code": "200",
-		"message": "success"
-	},
-	"result": "success"
+  "status": {
+    "code": "200",
+    "message": "success"
+  },
+  "result": {
+    "list": [
+      {
+        "gender": "男",
+        "customer_nick_name": "162925",
+        "customer_identifier": "13126993329",
+        "last_purchase_time": "2016-02-23 11:40:46",
+        "total_purchase_amount": 37595,
+        "rfm_display": "流失顾客"
+	  }
+    ],
+    "pagination": {
+      "limit": 10,
+      "total_count": 1,
+      "total_page": 1,
+      "current_page": 1
+    }
+  }
 }
 ```
 <table data-tablesaw-sortable>
