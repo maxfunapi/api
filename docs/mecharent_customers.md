@@ -15,6 +15,7 @@
 
 ## Request
 ```
+{BASE_URL}/tp/services/mecharent_customers?search_param=xx&register_date=2016-11-01&rfm_group_id=-1&limit=10&current_page=1&sorting=1
 ```
 <table data-tablesaw-sortable>
     <thead>
