@@ -124,7 +124,7 @@
         </tr>
 	<tr>
             <td>pagination</th>
-            <td>Object</th>
+            <td></th>
             <td>分页信息</th>
         </tr>
 	<tr>
