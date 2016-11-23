@@ -117,10 +117,35 @@
             <td>数字型</th>
             <td>总消费金额</th>
         </tr>
-		<tr>
+	<tr>
             <td>rfm_display</th>
             <td>字符型</th>
             <td>分组名称</th>
+        </tr>
+	<tr>
+            <td>pagination</th>
+            <td>Object</th>
+            <td>分页信息</th>
+        </tr>
+	<tr>
+            <td>limit</th>
+            <td>整型</th>
+            <td>每页数量</th>
+        </tr>
+	<tr>
+            <td>total_count</th>
+            <td>整型</th>
+            <td>共多少条记录</th>
+        </tr>
+	<tr>
+            <td>total_page</th>
+            <td>整型</th>
+            <td>共多少页</th>
+        </tr>
+	<tr>
+            <td>current_page</th>
+            <td>整型</th>
+            <td>当前页</th>
         </tr>
     </thead>
 <table>
