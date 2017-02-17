@@ -1,8 +1,8 @@
 ## 一满乐API文档
 
 ---   
-  * API接入（测试环境）： https://demo.maxfun.co/
-  * API接入（正式环境）： https://openapi.maxfun.co/
+  * API接入（测试环境）： http://demo.maxfun.co/
+  * API接入（正式环境）： http://openapi3.maxfun.co/
   
 ---   
 
