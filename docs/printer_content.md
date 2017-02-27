@@ -27,16 +27,16 @@
             <th data-tablesaw-sortable-col>是否必填</th>
         </tr>
 		<tr>
-            <td>devices_key</th>
-            <td>字符型</th>
-            <td>设备标识符</th>
-            <td>是</th>
+            <td>devices_key</td>
+            <td>字符型</td>
+            <td>设备标识符</td>
+            <td>是</td>
         </tr>
 		<tr>
-            <td>content</th>
-            <td>字符型</th>
-            <td>打印内容</th>
-            <td>是</th>
+            <td>content</td>
+            <td>字符型</td>
+            <td>打印内容</td>
+            <td>是</td>
         </tr>
     </thead>
 <table>
@@ -60,14 +60,19 @@
             <th data-tablesaw-sortable-col>描述</th>
         </tr>
 		<tr>
-			<td>code</th>
-			<td>字符型</th>
-			<td>为200则成功，其他则失败</th>
+			<td>code</td>
+			<td>字符型</td>
+			<td>为200则成功，其他则失败</td>
 		</tr>
 		<tr>
-			<td>message</th>
-			<td>字符型</th>
-			<td>返回信息，例如错误信息</th>
+			<td>message</td>
+			<td>字符型</td>
+			<td>返回信息，例如错误信息</td>
+		</tr>
+		<tr>
+			<td>result</td>
+			<td>字符型</td>
+			<td>返回信息，成功返回success</td>
 		</tr>
     </thead>
 <table>
